@@ -121,6 +121,9 @@ Phase 1
 | poetry install permission denied (virtualenv lock) | 1 | Pending: ask user whether to skip dependency install or use alternative |
 | pytest not found | 1 | Pending: ask user to proceed without baseline tests or install deps |
 | poetry install failed (fastmcp requires openapi-pydantic; python spec lacks <4.0) | 1 | Pending: adjust pyproject requires-python or proceed without deps |
+| poetry install timeout | 1 | Retry with longer timeout or proceed without full install |
+| pytest not installed in venv | 2 | Added pytest dev dependency; installed with Poetry |
+| pytest collected 0 tests | 1 | Baseline tests unavailable (no test suite yet) |
 
 ## Notes
 <!-- 

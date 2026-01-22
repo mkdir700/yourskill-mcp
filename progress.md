@@ -98,6 +98,9 @@
 | 2026-01-21 00:10 | poetry install permission denied (virtualenv lock) | 1 | Pending: need user direction |
 | 2026-01-21 00:11 | pytest not found | 1 | Pending: need user direction |
 | 2026-01-21 00:13 | poetry install failed (python requires <4.0 for openapi-pydantic) | 1 | Pending: update pyproject or skip deps |
+| 2026-01-21 00:15 | poetry install timeout | 1 | Retry with longer timeout or proceed without full install |
+| 2026-01-21 00:18 | pytest not installed in venv | 2 | Added pytest dev dependency and installed |
+| 2026-01-21 00:20 | pytest collected 0 tests | 1 | Baseline test suite absent |
 
 ## 5-Question Reboot Check
 <!-- 
